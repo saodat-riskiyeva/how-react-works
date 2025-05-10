@@ -26,6 +26,7 @@ export default function App() {
   );
 }
 
+// State needs to be refined
 function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
 
